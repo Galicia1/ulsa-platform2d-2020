@@ -1,37 +1,7 @@
 fileFormatVersion: 2
-guid: 0bc489ebed8dac94c880981ffcae2665
+guid: 56d3ed6a4f3e19e428b1dcecf08c4db2
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 9040732458574745486
-    second: sliding_0
-  - first:
-      213: -5010991357390200157
-    second: sliding_1
-  - first:
-      213: -4126227591920658685
-    second: sliding_2
-  - first:
-      213: -2384636520185094086
-    second: sliding_3
-  - first:
-      213: -5659251968323293187
-    second: sliding_4
-  - first:
-      213: -2296595176826300922
-    second: sliding_5
-  - first:
-      213: 6111282656006210651
-    second: sliding_6
-  - first:
-      213: -5182323210870003838
-    second: sliding_7
-  - first:
-      213: 9198521544073061473
-    second: sliding_8
-  - first:
-      213: -3106392645195460972
-    second: sliding_9
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -62,11 +32,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
+    aniso: 2
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -90,7 +60,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -102,7 +72,43 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -114,221 +120,11 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: sliding_0
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 12
-        width: 211
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e10d9d075847744d894fd5c2aff5df5
-      internalID: 9040732458574745486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliding_1
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 12
-        width: 211
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11b6f97125af597419b3e7cf18660b2b
-      internalID: -5010991357390200157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliding_2
-      rect:
-        serializedVersion: 2
-        x: 469
-        y: 12
-        width: 213
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd73eedaa7dca8241ad35c56a450724b
-      internalID: -4126227591920658685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliding_3
-      rect:
-        serializedVersion: 2
-        x: 696
-        y: 13
-        width: 215
-        height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8f2fb276fc4f8f4dbe1df3e66f2757c
-      internalID: -2384636520185094086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliding_4
-      rect:
-        serializedVersion: 2
-        x: 922
-        y: 13
-        width: 217
-        height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c32d6dda64a03904b984c4db96ff4402
-      internalID: -5659251968323293187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliding_5
-      rect:
-        serializedVersion: 2
-        x: 1148
-        y: 13
-        width: 219
-        height: 127
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b51bc73b663e8844a90d5ff45baa2e7
-      internalID: -2296595176826300922
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliding_6
-      rect:
-        serializedVersion: 2
-        x: 1375
-        y: 13
-        width: 220
-        height: 127
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c6903a8d5fa16843a5d5eb9be792814
-      internalID: 6111282656006210651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliding_7
-      rect:
-        serializedVersion: 2
-        x: 1601
-        y: 12
-        width: 221
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4cc33020aedc2d458a02520b9acdabd
-      internalID: -5182323210870003838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliding_8
-      rect:
-        serializedVersion: 2
-        x: 1832
-        y: 12
-        width: 219
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cff8bc2b78ea8cc44bf71f31bda649de
-      internalID: 9198521544073061473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliding_9
-      rect:
-        serializedVersion: 2
-        x: 2064
-        y: 12
-        width: 214
-        height: 127
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca0c5f02a2971ac43a939662814b2ccb
-      internalID: -3106392645195460972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 31c6370de092f544880c5a6ed1aa0e8b
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
