@@ -19,5 +19,11 @@ public class Player : Character2D
     {
         spr.flipX = FlipSprite;
         anim.SetFloat("axisX", Mathf.Abs(GameplaySystem.Axis.x));
+
+        if(GameplaySystem.JumpBtn)
+        {
+            anim.SetTrigger("jump");
+            GameplaySystem.Jump(rb2D, jumpForce);
+        }
     }
 }
