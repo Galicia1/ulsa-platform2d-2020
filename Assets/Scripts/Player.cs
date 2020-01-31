@@ -5,6 +5,7 @@ using Platform2DUtils.GameplaySystem;
 
 public class Player : Character2D
 {
+
     void FixedUpdate()
     {
         if(GameplaySystem.JumpBtn)
@@ -34,7 +35,8 @@ public class Player : Character2D
         if(other.CompareTag("collectable"))
         {
             Collectable collectable = other.GetComponent<Collectable>();
-            score.AddPoints(collectable.Points);
+            Gamemanager.instance.Score.AddPoints(collectable.Points);
+            //score.AddPoints(collectable.Points);
             Destroy(other.gameObject);
         }
     }

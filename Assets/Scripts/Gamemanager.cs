@@ -7,7 +7,8 @@ public class Gamemanager : MonoBehaviour
     public static Gamemanager instance;
     [SerializeField]
     Score score;
-    public Score score {get=>score;}
+
+    public Score Score { get => score; }
 
     void Awake()
     {
