@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 535f8e525ff367c4ba67961e201a05ed, type: 3}
-  m_Name: tree
+  m_Name: treesRandom
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -38,6 +38,3 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c6bae41e9d7e33b42b596f84bb23de48, type: 3}
   - {fileID: 21300000, guid: 7a947342e8d9d22468cab539ad1a75ae, type: 3}
   - {fileID: 21300000, guid: 5f36b020b14a12649b6719d3bd2c5c3d, type: 3}
-  - {fileID: 21300000, guid: 1ec90b1227c1d294a8cda27a99509dbe, type: 3}
-  - {fileID: 21300000, guid: 7d0bafa063d148d418ed6b65f7283d00, type: 3}
-  - {fileID: 21300000, guid: b7038eac3218859408a0afad7d7ce6c3, type: 3}

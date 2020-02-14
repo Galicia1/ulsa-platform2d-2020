@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - collectable
+  - enemy
   layers:
   - Default
   - TransparentFX
@@ -14,7 +15,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - PostProcessing
   - Ground
   - 
   - 
@@ -43,14 +44,20 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: ground
-    uniqueID: 4141220615
+    uniqueID: 2332016351
     locked: 0
-  - name: grass
-    uniqueID: 392812653
+  - name: trees
+    uniqueID: 2538127269
     locked: 0
   - name: collectable
-    uniqueID: 877818457
+    uniqueID: 3667407573
+    locked: 0
+  - name: grass
+    uniqueID: 2057884943
+    locked: 0
+  - name: enemy
+    uniqueID: 1099802253
     locked: 0
   - name: player
-    uniqueID: 2785160663
+    uniqueID: 3169655003
     locked: 0
