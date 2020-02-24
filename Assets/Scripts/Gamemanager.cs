@@ -24,7 +24,8 @@ public class Gamemanager : MonoBehaviour
         else
         {
             instance = this;
-            gameData = new GameData();
+            //gameData = MemorySystem.LoadData();
+            //Debug.Log(gameData.Player);
         }
 
         DontDestroyOnLoad(gameObject);
@@ -34,9 +35,16 @@ public class Gamemanager : MonoBehaviour
     {
         MemorySystem.SaveData(gameData);
     }
-
+    
+    public void Load()
+    {
+        gameData = MemorySystem.LoadData();
+    }
     void Start()
     {
+        Load();
+        Debug.Log(gameData.PlayerPos);
+
         //int scene = SceneManager.GetActiveScene().buildIndex;
        //score.gameObject.SetActive(scene > 0);
     }

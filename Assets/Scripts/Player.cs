@@ -11,8 +11,15 @@ public class Player : Character2D
 
     void Start()
     {
-        Gamemanager.instance.gameData.Player = this;
-        Gamemanager.instance.Save();
+        //Gamemanager.instance.gameData.Player = this;
+        //Gamemanager.instance.Save();
+        //Gamemanager.instance.Load();
+        transform.position = Gamemanager.instance.gameData.PlayerPos;
+    }
+
+    public Player()
+    {
+        
     }
 
     void FixedUpdate()
@@ -21,6 +28,10 @@ public class Player : Character2D
         {
             if(Grounding)
             {
+                Gamemanager.instance.gameData.PlayerPos = transform.position;
+                //Debug.Log(Gamemanager.instance.gameData.Player);
+                Gamemanager.instance.Save();
+                
                 anim.SetTrigger("jump");
                 GameplaySystem.Jump(rb2D, jumpForce);
             }

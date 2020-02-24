@@ -8,9 +8,11 @@ namespace Platform2DUtils.MemorySystem
 {
     public class MemorySystem 
     {
+
+        static string path = $"{Application.persistentDataPath}/myGame.data";
+
         public static void SaveData(GameData gameData)
         {
-            string path = $"{Application.persistentDataPath}/myGame.data";
             BinaryFormatter bf = new BinaryFormatter();
             FileStream file = File.Create(path);
             string json = JsonUtility.ToJson(gameData);
@@ -21,16 +23,16 @@ namespace Platform2DUtils.MemorySystem
 
         public static GameData LoadData()
         {
-            string path = $"{Application.persistentDataPath})/myGame.data";
-            return new GameData();
-
-            if(File.Exists(path)) {
+            if(File.Exists(path))
+            {
                 BinaryFormatter bf = new BinaryFormatter();
                 FileStream file = File.Open(path, FileMode.Open);
                 string json = bf.Deserialize(file) as string;
                 GameData gameData = JsonUtility.FromJson<GameData>(json);
                 return gameData;
             }
+
+            return new GameData();
         }
     }
 }
