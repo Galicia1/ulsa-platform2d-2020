@@ -40,8 +40,15 @@ public class Gamemanager : MonoBehaviour
     {
         gameData = MemorySystem.LoadData();
     }
+
+    public void Delete()
+    {
+        MemorySystem.DeleteData();
+    }
+
     void Start()
     {
+        Delete();
         Load();
         Debug.Log(gameData.PlayerPos);
 
