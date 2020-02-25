@@ -28,21 +28,27 @@ public class Menu : MonoBehaviour
 
     public void LoadGame()
     {
-        Debug.Log("Load");
+        Gamemanager.instance.gameData = MemorySystem.LoadData();
+        LoadScene();
     }
 
     public void NewGame()
     {
         Gamemanager.instance.gameData = new GameData();
         MemorySystem.SaveData(Gamemanager.instance.gameData);
-        SceneManager.LoadScene(1);
-        btnLoadGame.gameObject.SetActive(false);
-        Gamemanager.instance.Score.gameObject.SetActive(true);
-        gameObject.SetActive(false);
+        LoadScene();
     }
 
     public void QuitGame()
     {
-        Debug.Log("Quit");
+        Application.Quit();
+    }
+
+    void LoadScene()
+    {
+        SceneManager.LoadScene(1);
+        btnLoadGame.gameObject.SetActive(false);
+        Gamemanager.instance.Score.gameObject.SetActive(true);
+        gameObject.SetActive(false);
     }
 }
